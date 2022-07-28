@@ -6,8 +6,7 @@ function TodoItem({ todo, onRemove, onToggle }) {
     <div className="todo-container">
       <div>
         <h2 className="todo-title" key={todo.id}>
-          {" "}
-          {todo.title}{" "}
+          {todo.title}
         </h2>
         <div>{todo.body}</div>
       </div>
